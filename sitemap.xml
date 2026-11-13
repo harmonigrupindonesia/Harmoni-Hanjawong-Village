@@ -20,15 +20,27 @@
         <priority>0.98</priority>
     </url>
     <url>
-        <loc>https://harmonihanjawongvillage.co.id/faq/</loc>
+        <loc>https://harmonihanjawongvillage.co.id/price-list/</loc>
         <lastmod>2026-11-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.97</priority>
     </url>
     <url>
-        <loc>https://harmonihanjawongvillage.co.id/form-survei/</loc>
+        <loc>https://harmonihanjawongvillage.co.id/faq/</loc>
         <lastmod>2026-11-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.96</priority>
+    </url>
+    <url>
+        <loc>https://harmonihanjawongvillage.co.id/form-survei/</loc>
+        <lastmod>2026-11-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://harmonihanjawongvillage.co.id/gallery/</loc>
+        <lastmod>2026-11-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.94</priority>
     </url>
 </urlset>
