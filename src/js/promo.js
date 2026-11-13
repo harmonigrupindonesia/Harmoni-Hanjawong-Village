@@ -4,7 +4,7 @@
   const CLOSED_KEY = "harmoniPromoClosed";
 
   const promoImage =
-    "https://harmonihanjawongvillage.co.id/public/img/view-promo.webp";
+    "https://harmonihanjawongvillage.co.id/assets/img/view-promo.webp";
 
   const whatsappUrl =
     "https://wa.me/6282310779907?text=Hallo%20Ka%20Admin%2C%20Saya%20Mau%20Promo%20800%20ribuan%20Kavling%20Harmoni%20Hanjawong%20Village";
