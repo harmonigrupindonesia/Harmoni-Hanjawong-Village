@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://harmonihanjawongvillage.co.id/tag/sitemap.xml

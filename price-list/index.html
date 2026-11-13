@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Price List - Harmoni Hanjawong Village</title>
+
+    <link rel="stylesheet" href="../src/output.css" />
+  </head>
+  <body class="bg-bgLight dark:bg-bgDark">
+    <header>
+      <nav
+        class="fixed top-0 w-full z-50 backdrop-blur border-b bg-primaryLight font-astroriaMedium text-white"
+      >
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="flex h-16 items-center justify-between">
+            <div class="flex items-center gap-2">
+              <a href="/">
+                <img
+                  id="theme-icon"
+                  src="./assets/assets/icon/logo_hgi.webp"
+                  alt="logo-home"
+                  class="h-7"
+                />
+              </a>
+            </div>
+
+            <div
+              class="flex items-center gap-2 text-white"
+              aria-label="Pengaturan tema"
+            >
+              <span id="theme-dark-label" class="text-sm"> Dark </span>
+
+              <input
+                type="checkbox"
+                id="dark-toggle"
+                class="peer sr-only"
+                aria-labelledby="theme-dark-label theme-light-label"
+              />
+
+              <label
+                for="dark-toggle"
+                class="relative inline-flex h-6 w-11 cursor-pointer items-center bg-white rounded-full p-1 transition-colors duration-300 peer-focus-visible:outline-none peer-focus-visible:ring-2 peer-focus-visible:ring-thirdLight dark:peer-focus-visible:ring-offset-bgDark"
+              >
+                <span class="sr-only">Ubah tema website</span>
+
+                <span
+                  class="toggle-circle block h-4 w-4 rounded-full bg-thirdLight shadow-md transition-transform duration-300 ease-in-out"
+                ></span>
+              </label>
+
+              <span
+                id="theme-light-label"
+                class="text-sm font-medium text-white"
+              >
+                Light
+              </span>
+            </div>
+
+            <div class="hidden md:flex items-center gap-8">
+              <a
+                href="../"
+                id="active-nav"
+                class="hover:text-secondaryLight transition"
+                >Beranda</a
+              >
+              <a href="../news/" class="hover:text-secondaryLight transition"
+                >Info Terkini</a
+              >
+              <!-- <a href="testimoni/" class="hover:text-secondaryLight transition"
+                >Testimoni</a
+              > -->
+              <a
+                href="../siteplan/"
+                class="hover:text-secondaryLight transition"
+                >Siteplan</a
+              >
+              <a
+                href="../price-list/"
+                class="text-secondaryLight hover:text-secondaryLight transition"
+                >Price List</a
+              >
+
+              <a href="../faq/" class="hover:text-secondaryLight transition"
+                >FAQ</a
+              >
+
+              <a
+                href="../form-survei/"
+                class="ml-4 px-5 py-2 rounded-md font-medium transition bg-linear-45/oklch from-secondaryLight to-thirdLight text-primaryLight hover:bg-primaryLight"
+              >
+                Hubungi Kami
+              </a>
+            </div>
+
+            <button
+              id="menuBtn"
+              class="md:hidden text-hgi-light-primary dark:text-hgi-primary"
+            >
+              <svg
+                class="w-7 h-7"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div
+          id="mobileMenu"
+          class="hidden md:hidden bg-primaryLight border-t border-gray-200"
+        >
+          <div class="px-6 py-4 space-y-4">
+            <a href="../" class="block hover:text-secondaryLight transition"
+              >Beranda</a
+            >
+            <a
+              href="../news/"
+              class="block hover:text-secondaryLight transition"
+              >Info Terkini</a
+            >
+            <!-- <a
+              href="testimoni/"
+              class="block hover:text-secondaryLight transition"
+              >Testimoni</a
+            > -->
+
+            <a
+              href="../siteplan/"
+              class="block hover:text-secondaryLight transition"
+              >Siteplan</a
+            >
+            <a
+              href="../price-list/"
+              class="block text-secondaryLight hover:text-secondaryLight transition"
+              >Price List</a
+            >
+            <a href="../faq/" class="block hover:text-secondaryLight transition"
+              >FAQ</a
+            >
+
+            <a
+              href="../form-survei/"
+              class="block text-center px-4 py-2 ml-4 rounded-md font-medium transition bg-linear-45/oklch from-secondaryLight to-thirdLight text-primaryLight hover:bg-primaryLight"
+            >
+              Hubungi Kami
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="mt-16">
+      <div class="w-full flex justify-center items-center">
+        <div class="lg:w-50 w-25 mx-0">
+          <img src="../assets/img/part/part1.webp" alt="part" class="" />
+        </div>
+        <div
+          class="w-full text-center lg:text-5xl text-xl font-astroriaBold text-secondaryLight text-shadow-4xl"
+        >
+          <h1
+            class="hover:text-primaryLight dark:text-thirdLight dark:hover:text-secondaryLight transition ease-in-out delay-200"
+          >
+            Price List
+          </h1>
+        </div>
+        <div class="lg:w-50 w-25 my-0 scale-x-[-1]">
+          <img src="../assets/img/part/part1.webp" alt="part" class="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="grid place-content-center w-full">
+      <div class="grid place-content-center">
+        <div class="block">
+          <p
+            class="text-center font-astroriaMedium text-base text-black dark:text-white"
+          >
+            Jumat, 02 Oktober 2026
+          </p>
+          <div class="flex justify-center h-6 mt-3">
+            <p
+              class="text-center font-astroriaMedium text-lg text-black dark:text-white"
+            >
+              Bagikan :
+            </p>
+            <a href="#" onClick="shareWhatsApp()">
+              <img
+                src="../assets/icon/wa-color.png"
+                alt="icon-wa"
+                class="ml-2 h-7"
+              />
+            </a>
+            <a href="#" onClick="shareFacebook()">
+              <img
+                src="../assets/icon/fb-color.png"
+                alt="icon-fb"
+                class="ml-2 h-7"
+              />
+            </a>
+            <a href="#" onClick="shareX()">
+              <img
+                src="../assets/icon/x-color.png"
+                alt="icon-x"
+                class="ml-2 h-7"
+              />
+            </a>
+            <a href="#" onClick="copyLink()">
+              <img
+                src="../assets/icon/copy-color.png"
+                alt="icon-copy"
+                class="ml-2 h-7"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <article>
+        <section
+          id="tipe-kavling"
+          class="py-16 text-gray-900 dark:text-white md:py-24"
+        >
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <!-- Section Heading -->
+            <div class="mx-auto mb-12 max-w-3xl text-center">
+              <span
+                class="mb-3 inline-flex items-center rounded-full bg-green-100 px-4 py-2 text-sm font-semibold text-green-700 dark:bg-green-900/30 dark:text-green-400"
+              >
+                Pilihan Kavling
+              </span>
+
+              <h2
+                class="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl"
+              >
+                Temukan Tipe Kavling
+                <span class="text-secondaryLight dark:text-thirdLight">
+                  Hanjawong Village
+                </span>
+              </h2>
+
+              <p
+                class="mt-5 text-base leading-relaxed text-black dark:text-white sm:text-lg"
+              >
+                Pilihan kavling dengan karakter dan keunggulan berbeda. Temukan
+                tipe yang sesuai dengan rencana Anda untuk memiliki aset tanah
+                di kawasan Puncak 2, Sukamakmur, Bogor.
+              </p>
+            </div>
+
+            <!-- Unit Cards -->
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+              <!-- HANJAWONG RESERVE -->
+              <article
+                class="group flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-green-500 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900 sm:p-8"
+              >
+                <div class="mb-6 flex items-start justify-between gap-4">
+                  <div>
+                    <span
+                      class="mb-3 inline-block rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-blue-700 dark:bg-blue-900/30 dark:text-blue-400"
+                    >
+                      Premium View
+                    </span>
+
+                    <h3 class="text-2xl font-bold">Hanjawong Reserve</h3>
+                  </div>
+
+                  <div
+                    class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400"
+                    aria-hidden="true"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m3 20 6-9 4 5 3-4 5 8H3Z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M7 8 10 4l3 4m-3-4v5"
+                      />
+                    </svg>
+                  </div>
+                </div>
+
+                <p
+                  class="mb-8 flex-grow leading-relaxed text-gray-600 dark:text-gray-400"
+                >
+                  Premium View Type bagi Anda yang mencari pilihan lahan dengan
+                  karakter pemandangan sebagai salah satu pertimbangan dalam
+                  memilih kavling.
+                </p>
+
+                <div
+                  class="mb-6 border-t border-gray-200 pt-6 dark:border-gray-800"
+                >
+                  <p class="text-sm text-gray-500 dark:text-gray-400">
+                    Harga mulai
+                  </p>
+
+                  <div class="mt-1 flex flex-wrap items-baseline gap-1">
+                    <span
+                      class="text-3xl font-bold text-green-600 dark:text-green-400"
+                    >
+                      Rp899.000
+                    </span>
+                    <span class="text-sm text-gray-500 dark:text-gray-400">
+                      /m²
+                    </span>
+                  </div>
+                </div>
+
+                <a
+                  href="../form-survei/"
+                  class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-green-600 px-5 py-3.5 text-center font-semibold text-white transition hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
+                >
+                  Amankan Unit ini!
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </article>
+              <!-- HANJAWONG TERRA -->
+              <article
+                class="group flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-green-500 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900 sm:p-8"
+              >
+                <div class="mb-6 flex items-start justify-between gap-4">
+                  <div>
+                    <span
+                      class="mb-3 inline-block rounded-full bg-green-100 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-green-700 dark:bg-green-900/30 dark:text-green-400"
+                    >
+                      Green Productive
+                    </span>
+
+                    <h3 class="text-2xl font-bold">Hanjawong Terra</h3>
+                  </div>
+
+                  <div
+                    class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400"
+                    aria-hidden="true"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 21c-4.5-2.5-7-6-7-10 0-3 2-5 5-5 1 0 2 .5 2 2 0-1.5 1-2 2-2 3 0 5 2 5 5 0 4-2.5 7.5-7 10Z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 21v-9m0 3c-2-2-3-4-3-6m3 6c2-2 3-4 3-6"
+                      />
+                    </svg>
+                  </div>
+                </div>
+
+                <p
+                  class="mb-8 flex-grow leading-relaxed text-gray-600 dark:text-gray-400"
+                >
+                  Pilihan Green Productive Type untuk Anda yang memiliki rencana
+                  mengembangkan lahan dengan konsep hijau dan produktif sesuai
+                  kebutuhan.
+                </p>
+
+                <div
+                  class="mb-6 border-t border-gray-200 pt-6 dark:border-gray-800"
+                >
+                  <p class="text-sm text-gray-500 dark:text-gray-400">
+                    Harga mulai
+                  </p>
+
+                  <div class="mt-1 flex flex-wrap items-baseline gap-1">
+                    <span
+                      class="text-3xl font-bold text-green-600 dark:text-green-400"
+                    >
+                      Rp1.099.000
+                    </span>
+                    <span class="text-sm text-gray-500 dark:text-gray-400">
+                      /m²
+                    </span>
+                  </div>
+                </div>
+
+                <a
+                  href="../form-survei/"
+                  class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-green-600 px-5 py-3.5 text-center font-semibold text-white transition hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
+                >
+                  Amankan Unit ini!
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </article>
+
+              <!-- HANJAWONG ARUNA -->
+              <article
+                class="group flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-green-500 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900 sm:p-8"
+              >
+                <div class="mb-6 flex items-start justify-between gap-4">
+                  <div>
+                    <span
+                      class="mb-3 inline-block rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-amber-700 dark:bg-amber-900/30 dark:text-amber-400"
+                    >
+                      Sunrise Living
+                    </span>
+
+                    <h3 class="text-2xl font-bold">Hanjawong Aruna</h3>
+                  </div>
+
+                  <div
+                    class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-amber-600 dark:bg-amber-900/30 dark:text-amber-400"
+                    aria-hidden="true"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364-1.414 1.414M7.05 16.95l-1.414 1.414m12.728 0-1.414-1.414M7.05 7.05 5.636 5.636M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+
+                <p
+                  class="mb-8 flex-grow leading-relaxed text-gray-600 dark:text-gray-400"
+                >
+                  Pilihan kavling dengan konsep Sunrise Living untuk Anda yang
+                  menginginkan suasana pagi yang menyegarkan dan lingkungan yang
+                  nyaman.
+                </p>
+
+                <div
+                  class="mb-6 border-t border-gray-200 pt-6 dark:border-gray-800"
+                >
+                  <p class="text-sm text-gray-500 dark:text-gray-400">
+                    Harga mulai
+                  </p>
+
+                  <div class="mt-1 flex flex-wrap items-baseline gap-1">
+                    <span
+                      class="text-3xl font-bold text-green-600 dark:text-green-400"
+                    >
+                      Rp1.299.000
+                    </span>
+                    <span class="text-sm text-gray-500 dark:text-gray-400">
+                      /m²
+                    </span>
+                  </div>
+                </div>
+
+                <a
+                  href="../form-survei/"
+                  class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-green-600 px-5 py-3.5 text-center font-semibold text-white transition hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
+                >
+                  Amankan Unit ini!
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </article>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <div class="w-full px-10 flex justify-center">
+        <div
+          class="mt-5 bg-primaryLight dark:bg-thirdLight border-amber-400 w-150 h-15 rounded-2xl grid place-content-center"
+        >
+          <p
+            class="text-center font-bold text-2xl dark:text-primaryLight text-thirdLight"
+          >
+            Riverside Unit Penambahan 15 Juta
+          </p>
+        </div>
+      </div>
+
+      <div class="w-full lg:px-30 px-3 mt-10">
+        <div
+          class="bg-primaryLight dark:bg-thirdLight w-full mx-auto rounded-2xl block"
+        >
+          <h3
+            class="text-thirdLight p-5 dark:text-primaryLight lg:text-3xl text-lg font-bold font-astroriaMedium"
+          >
+            Keterangan
+          </h3>
+
+          <ol
+            class="list-decimal pl-6 space-y2 text-white text-sm dark:text-black lg:text-lg font-astroriaMedium ml-2 mr-2"
+          >
+            <li>
+              Masa Booking berlaku selama 7 (tujuh) hari, booking mengurangi
+              harga jual.
+            </li>
+            <li>
+              Pembayaran DP / Pelunasan maksimal 7 (tujuh) hari setelah booking,
+              jika dalam 7 (tujuh) hari tidak melakukan pembayaran DP (tidak ada
+              konfirmasi), maka dianggap mengundurkan diri (batal) dan *KAVLING
+              / UNIT TERSEBUT AKAN KAMI OPEN /JUAL KEMBALI
+            </li>
+            <li>
+              Booking Fee refundable.
+              <ol>
+                Booking fee sebesar Rp. 5.000.000,-. Apabila terjadi pembatalan
+                sepihak maka akan kami kembalikan setelah dipotong Rp. 500.000,-
+                (biaya layanan)
+              </ol>
+            </li>
+            <li>
+              Pengembalian Booking fee akan diproses kurang lebih 14 hari
+              setelah pengunduran diri (batal)
+            </li>
+            <li>
+              Harga sudah termasuk biaya BPHTB, PPJB, AJB, Notaris, PPH & SHM
+            </li>
+            <li>Kavling Hook Nominal Penambahan sebesar Rp. 5.000.000,-</li>
+            <li>
+              Berdasarkan syarat dan ketentuan yang berlaku, bagi Pihak
+              Konsumen/ Pembeli yang membatalkan secara sepihak sebelum
+              dilakukan akad jual beli, biaya jasa pelayanan dan biaya
+              administrasi, Baik yang sudah DP maupun sudah Lunas, *PENGEMBALIAN
+              UANG SETELAH KAVLING/UNIT TERSEBUT TERJUAL KEMBALI... maka
+              dikenakan biaya penalty sebesar 10% (sepuluh persen) dari
+              pembayaran yang telah dilakukan untuk kepentingan biaya marketing,
+            </li>
+            <li>Syarat dan Ketentuan Berlaku.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <div class="relative">
+      <button id="closePopup"></button>
+
+      <a href="#"> ... </a>
+    </div>
+
+    <div class="w-full flex justify-center items-center mt-5">
+      <div class="lg:w-50 w-25 mx-0">
+        <img src="../assets/img/part/part2.webp" alt="part" class="" />
+      </div>
+      <div
+        class="w-full text-center lg:text-5xl text-xl font-astroriaBold text-secondaryLight text-shadow-4xl"
+      ></div>
+      <div class="lg:w-50 w-25 my-0 scale-x-[-1]">
+        <img src="../assets/img/part/part2.webp" alt="part" class="" />
+      </div>
+    </div>
+    <footer
+      class="border-t border-slate-100 bg-primaryLight text-white transition-colors duration-300 font-astroriaMedium"
+    >
+      <div
+        class="mx-auto grid max-w-7xl gap-10 px-6 py-12 md:grid-cols-[1.4fr_1fr]"
+      >
+        <div>
+          <a href="/" class="inline-flex items-center gap-3">
+            <img
+              src="./assets/icon/logo-icon.png"
+              alt="Logo Harmoni Grup Indonesia"
+              class="h-14 w-auto"
+            />
+          </a>
+
+          <p class="mt-1 text-sm">Choose Your Place Choose Your Future</p>
+
+          <address
+            class="mt-6 max-w-xl italic text-sm leading-7 text-thirdLight"
+          >
+            Sukamakmur, Kec. Sukamakmur, Kabupaten Bogor, Jawa Barat 16831
+          </address>
+        </div>
+
+        <!-- Social Media -->
+
+        <div class="mt-5 flex items-center gap-4 md:justify-end">
+          <!-- Facebook -->
+          <a
+            href="https://www.facebook.com/profile.php?id=61594925580337"
+            aria-label="Facebook Harmoni Grup Indonesia"
+            class="grid size-10 place-items-center rounded-full border border-thirdLight bg-primaryLight text-thirdLight hover:bg-thirdLight hover:text-primaryLight"
+          >
+            <svg
+              class="size-5 fill-current"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M22 12.06C22 6.48 17.52 2 11.94 2S2 6.48 2 12.06c0 5.03 3.68 9.2 8.49 9.94v-7.03H7.96v-2.91h2.53V9.84c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.24 0-1.63.77-1.63 1.56v1.89h2.77l-.44 2.91h-2.33V22C18.42 21.26 22 17.09 22 12.06Z"
+              />
+            </svg>
+          </a>
+
+          <!-- Instagram -->
+          <a
+            href="https://www.instagram.com/harmonihanjawongvillage/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram Harmoni Grup Indonesia"
+            class="grid size-10 place-items-center rounded-full border border-thirdLight bg-primaryLight text-thirdLight hover:bg-thirdLight hover:text-primaryLight"
+          >
+            <svg
+              class="size-5"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+            >
+              <rect
+                x="3"
+                y="3"
+                width="18"
+                height="18"
+                rx="5"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+              <circle
+                cx="12"
+                cy="12"
+                r="4"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+              <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" />
+            </svg>
+          </a>
+
+          <!-- TikTok -->
+          <a
+            href="https://www.tiktok.com/@harmonihanjawongvillage"
+            aria-label="TikTok Harmoni Grup Indonesia"
+            class="grid size-10 place-items-center rounded-full border border-thirdLight bg-primaryLight text-thirdLight hover:bg-thirdLight hover:text-primaryLight"
+          >
+            <svg
+              class="size-5 fill-current"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M16.6 2c.3 2.3 1.7 4 4 4.2v3.1c-1.4.1-2.8-.4-4-1.2v6.3c0 4.2-2.8 7.1-6.8 7.1-3.3 0-5.8-2.2-5.8-5.4 0-3.4 2.8-5.7 6.4-5.4v3.2c-1.7-.3-3.1.6-3.1 2.1 0 1.3 1 2.2 2.4 2.2 1.7 0 2.8-1 2.8-3.3V2h4.1Z"
+              />
+            </svg>
+          </a>
+
+          <!-- YouTube -->
+          <a
+            href="https://www.youtube.com/@HarmoniHanjawongVillage"
+            aria-label="YouTube Harmoni Grup Indonesia"
+            class="grid size-10 place-items-center rounded-full border border-thirdLight bg-primaryLight text-thirdLight hover:bg-thirdLight hover:text-primaryLight"
+          >
+            <svg
+              class="size-5 fill-current"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M21.58 7.19a2.75 2.75 0 0 0-1.94-1.95C17.93 4.78 12 4.78 12 4.78s-5.93 0-7.64.46a2.75 2.75 0 0 0-1.94 1.95A28.7 28.7 0 0 0 2 12a28.7 28.7 0 0 0 .42 4.81 2.75 2.75 0 0 0 1.94 1.95c1.71.46 7.64.46 7.64.46s5.93 0 7.64-.46a2.75 2.75 0 0 0 1.94-1.95A28.7 28.7 0 0 0 22 12a28.7 28.7 0 0 0-.42-4.81ZM10 15.3V8.7l5.5 3.3L10 15.3Z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div
+        class="border-t border-hgi-light-border px-6 py-5 text-center text-sm text-hgi-light-muted dark:border-white/10 dark:text-white/60"
+      >
+        © 2026 Harmoni Hanjawong Village.
+      </div>
+    </footer>
+    <script defer src="../src/js/darkmode-toggle.js"></script>
+    <script defer src="../src/js/navbar.js"></script>
+    <script defer src="../src/js/promo.js"></script>
+    <script defer src="../src/js/shared.js"></script>
+  </body>
+</html>
