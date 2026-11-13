@@ -27,7 +27,8 @@
     if (!themeIcon) return;
 
     // Gunakan gambar icon yang sama seperti kode sebelumnya
-    themeIcon.src = "assets/icon/logo-icon.png";
+    themeIcon.src =
+      "https://harmonihanjawongvillage.co.id/assets/icon/logo-icon.png";
   };
 
   updateThemeIcon(isLightTheme);
