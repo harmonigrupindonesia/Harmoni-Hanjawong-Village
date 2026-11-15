@@ -1,4 +1,41 @@
+
+# Harmoni Hanjawong Village
+# https://harmonihanjawongvillage.co.id
+
 User-agent: *
 Allow: /
 
+# AI Search Crawlers
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI Training Policy
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+# Content usage preference
+Content-Signal: search=yes, ai-train=no
+
+# Sitemap
 Sitemap: https://harmonihanjawongvillage.co.id/sitemap.xml

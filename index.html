@@ -76,62 +76,523 @@
 {
   "@context": "https://schema.org",
   "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://harmonihanjawongvillage.co.id/#organization",
+      "name": "PT Harmoni Grup Indonesia",
+      "url": "https://harmonihanjawongvillage.co.id/",
+      "description": "PT Harmoni Grup Indonesia merupakan perusahaan pengembang kawasan kavling tanah di Indonesia. Harmoni Hanjawong Village merupakan proyek pengembangan ke-14 dari perusahaan ini.",
+      "brand": {
+        "@id": "https://harmonihanjawongvillage.co.id/#brand"
+      },
+      "knowsAbout": [
+        "Pengembangan kawasan kavling tanah",
+        "Properti dan investasi tanah",
+        "Pengembangan kawasan produktif",
+        "Pengembangan kawasan wisata dan alam"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "Indonesia"
+      }
+    },
+
+    {
+      "@type": "Brand",
+      "@id": "https://harmonihanjawongvillage.co.id/#brand",
+      "name": "Harmoni Hanjawong Village",
+      "url": "https://harmonihanjawongvillage.co.id/",
+      "description": "Harmoni Hanjawong Village merupakan proyek ke-14 PT Harmoni Grup Indonesia, sebuah kawasan pengembangan kavling tanah dengan konsep Property, Nature, Leisure & Lifestyle yang berlokasi di Sukamakmur, Bogor, Jawa Barat.",
+      "parentOrganization": {
+        "@id": "https://harmonihanjawongvillage.co.id/#organization"
+      },
+      "sameAs": [
+      ]
+    },
+
     {
       "@type": "WebSite",
       "@id": "https://harmonihanjawongvillage.co.id/#website",
+      "url": "https://harmonihanjawongvillage.co.id/",
       "name": "Harmoni Hanjawong Village",
       "alternateName": [
-        "HHV",
-        "harmonihanjawongvillage.co.id"
+        "Harmoni Hanjawong",
+        "Hanjawong Village"
       ],
+      "description": "Website resmi Harmoni Hanjawong Village, proyek pengembangan kawasan kavling tanah SHM di Puncak 2, Sukamakmur, Bogor.",
+      "publisher": {
+        "@id": "https://harmonihanjawongvillage.co.id/#organization"
+      },
+      "inLanguage": "id-ID"
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://harmonihanjawongvillage.co.id/#webpage",
       "url": "https://harmonihanjawongvillage.co.id/",
-      "inLanguage": "id-ID",
+      "name": "Harmoni Hanjawong Village | Kavling SHM Puncak 2 Bogor",
+      "description": "Kenali Harmoni Hanjawong Village, kawasan kavling tanah SHM dengan konsep Property, Nature, Leisure & Lifestyle di Sukamakmur, Bogor, Jawa Barat.",
+      "isPartOf": {
+        "@id": "https://harmonihanjawongvillage.co.id/#website"
+      },
+      "about": [
+        {
+          "@id": "https://harmonihanjawongvillage.co.id/#brand"
+        },
+        {
+          "@id": "https://harmonihanjawongvillage.co.id/#project-location"
+        }
+      ],
       "mainEntity": {
-        "@id": "https://harmonihanjawongvillage.co.id/#webpage"
+        "@id": "https://harmonihanjawongvillage.co.id/#brand"
       },
       "publisher": {
         "@id": "https://harmonihanjawongvillage.co.id/#organization"
+      },
+      "inLanguage": "id-ID"
+    },
+
+    {
+      "@type": "Place",
+      "@id": "https://harmonihanjawongvillage.co.id/#project-location",
+      "name": "Harmoni Hanjawong Village",
+      "description": "Lokasi pengembangan kawasan kavling tanah Harmoni Hanjawong Village di kawasan Puncak 2, Sukamakmur, Kabupaten Bogor, Jawa Barat.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sukamakmur",
+        "addressDistrict": "Sukamakmur",
+        "addressRegion": "Jawa Barat",
+        "addressCountry": "ID"
+      },
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Kabupaten Bogor, Jawa Barat, Indonesia"
       }
+    },
+
+    {
+      "@type": "OfferCatalog",
+      "@id": "https://harmonihanjawongvillage.co.id/#product-catalog",
+      "name": "Pilihan Tipe Kavling Harmoni Hanjawong Village",
+      "description": "Katalog tipe kavling tanah Harmoni Hanjawong Village yang terdiri dari Sunrise Living, Green Productive, dan Premium View.",
+      "url": "https://harmonihanjawongvillage.co.id/",
+      "itemListElement": [
+        {
+          "@type": "OfferCatalog",
+          "name": "Hanjawong Aruna",
+          "itemListElement": {
+            "@id": "https://harmonihanjawongvillage.co.id/#aruna"
+          }
+        },
+        {
+          "@type": "OfferCatalog",
+          "name": "Hanjawong Terra",
+          "itemListElement": {
+            "@id": "https://harmonihanjawongvillage.co.id/#terra"
+          }
+        },
+        {
+          "@type": "OfferCatalog",
+          "name": "Hanjawong Reserve",
+          "itemListElement": {
+            "@id": "https://harmonihanjawongvillage.co.id/#reserve"
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "Product",
+      "@id": "https://harmonihanjawongvillage.co.id/#aruna",
+      "name": "Hanjawong Aruna",
+      "alternateName": "Hanjawong Aruna Sunrise Living Type",
+      "description": "Hanjawong Aruna merupakan tipe kavling Sunrise Living di Harmoni Hanjawong Village, Sukamakmur, Bogor. Mengusung konsep hunian bernuansa alam dengan karakter suasana pagi dan sunrise.",
+      "category": "Kavling Tanah",
+      "brand": {
+        "@id": "https://harmonihanjawongvillage.co.id/#brand"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Konsep",
+          "value": "Sunrise Living"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Legalitas",
+          "value": "Sertifikat Hak Milik (SHM)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Zonasi",
+          "value": "PP2"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Lokasi",
+          "value": "Sukamakmur, Bogor, Jawa Barat"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://harmonihanjawongvillage.co.id/",
+        "price": "1299000",
+        "priceCurrency": "IDR",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "1299000",
+          "priceCurrency": "IDR",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitText": "meter persegi"
+          }
+        },
+        "seller": {
+          "@id": "https://harmonihanjawongvillage.co.id/#organization"
+        }
+      }
+    },
+
+    {
+      "@type": "Product",
+      "@id": "https://harmonihanjawongvillage.co.id/#terra",
+      "name": "Hanjawong Terra",
+      "alternateName": "Hanjawong Terra Green Productive Type",
+      "description": "Hanjawong Terra merupakan tipe kavling Green Productive di Harmoni Hanjawong Village, Sukamakmur, Bogor. Mengusung konsep kawasan hijau dan produktif yang menyatu dengan potensi alam.",
+      "category": "Kavling Tanah",
+      "brand": {
+        "@id": "https://harmonihanjawongvillage.co.id/#brand"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Konsep",
+          "value": "Green Productive"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Legalitas",
+          "value": "Sertifikat Hak Milik (SHM)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Zonasi",
+          "value": "PP2"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Lokasi",
+          "value": "Sukamakmur, Bogor, Jawa Barat"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://harmonihanjawongvillage.co.id/",
+        "price": "1099000",
+        "priceCurrency": "IDR",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "1099000",
+          "priceCurrency": "IDR",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitText": "meter persegi"
+          }
+        },
+        "seller": {
+          "@id": "https://harmonihanjawongvillage.co.id/#organization"
+        }
+      }
+    },
+
+    {
+      "@type": "Product",
+      "@id": "https://harmonihanjawongvillage.co.id/#reserve",
+      "name": "Hanjawong Reserve",
+      "alternateName": "Hanjawong Reserve Premium View Type",
+      "description": "Hanjawong Reserve merupakan tipe kavling Premium View di Harmoni Hanjawong Village, Sukamakmur, Bogor, dengan karakter pemandangan alam dan panorama Gunung Hanjawong.",
+      "category": "Kavling Tanah",
+      "brand": {
+        "@id": "https://harmonihanjawongvillage.co.id/#brand"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Konsep",
+          "value": "Premium View"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Legalitas",
+          "value": "Sertifikat Hak Milik (SHM)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Zonasi",
+          "value": "PP2"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Lokasi",
+          "value": "Sukamakmur, Bogor, Jawa Barat"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://harmonihanjawongvillage.co.id/",
+        "price": "899000",
+        "priceCurrency": "IDR",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "899000",
+          "priceCurrency": "IDR",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitText": "meter persegi"
+          }
+        },
+        "seller": {
+          "@id": "https://harmonihanjawongvillage.co.id/#organization"
+        }
+      }
+    },
+
+    {
+      "@type": "ItemList",
+      "@id": "https://harmonihanjawongvillage.co.id/#facilities",
+      "name": "Fasilitas Harmoni Hanjawong Village",
+      "description": "Fasilitas dan infrastruktur pendukung kawasan Harmoni Hanjawong Village.",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Resto"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Flying Fox"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Children's Playground"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Mushola"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Toilet"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Jalan Kawasan"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Infrastruktur Listrik"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Drainase U-Ditch"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Solar Cell"
+        }
+      ]
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://harmonihanjawongvillage.co.id/#faq",
+      "url": "https://harmonihanjawongvillage.co.id/",
+      "isPartOf": {
+        "@id": "https://harmonihanjawongvillage.co.id/#webpage"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Apa itu Harmoni Hanjawong Village?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Harmoni Hanjawong Village merupakan proyek pengembangan kawasan kavling tanah ke-14 dari PT Harmoni Grup Indonesia yang berlokasi di Sukamakmur, Kabupaten Bogor, Jawa Barat, dengan konsep Property, Nature, Leisure & Lifestyle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Di mana lokasi Harmoni Hanjawong Village?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Harmoni Hanjawong Village berlokasi di Desa Sukamakmur, Kecamatan Sukamakmur, Kabupaten Bogor, Jawa Barat, di kawasan Puncak 2."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apa legalitas kavling Harmoni Hanjawong Village?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kavling Harmoni Hanjawong Village ditawarkan dengan legalitas Sertifikat Hak Milik (SHM) dan informasi zonasi PP2. Calon pembeli dapat meminta pemeriksaan dokumen legalitas kepada tim marketing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apa saja tipe kavling Harmoni Hanjawong Village?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Harmoni Hanjawong Village memiliki tiga pilihan tipe kavling, yaitu Hanjawong Aruna dengan konsep Sunrise Living, Hanjawong Terra dengan konsep Green Productive, dan Hanjawong Reserve dengan konsep Premium View."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Berapa harga kavling Harmoni Hanjawong Village?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Harga acuan yang dicantumkan untuk Hanjawong Aruna adalah Rp1.299.000 per meter persegi, Hanjawong Terra Rp1.099.000 per meter persegi, dan Hanjawong Reserve Rp899.000 per meter persegi. Harga dapat berubah sesuai ketentuan penawaran."
+          }
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://harmonihanjawongvillage.co.id/#organization",
+      "name": "PT Harmoni Grup Indonesia",
+      "url": "https://harmonihanjawongvillage.co.id/",
+      "description": "PT Harmoni Grup Indonesia merupakan pengembang kawasan kavling tanah dengan proyek Harmoni Hanjawong Village, proyek ke-14 yang berlokasi di Sukamakmur, Bogor.",
+      "brand": {
+        "@id": "https://harmonihanjawongvillage.co.id/#brand"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sukamakmur",
+        "addressRegion": "Jawa Barat",
+        "postalCode": "16831",
+        "addressCountry": "ID"
+      },
+      "sameAs": [
+        "https://www.instagram.com/harmonihanjawongvillage/",
+        "https://www.facebook.com/profile.php?id=61594925580337",
+        "https://www.tiktok.com/@harmonihanjawongvillage",
+        "https://www.youtube.com/@HarmoniHanjawongVillage"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "availableLanguage": ["Indonesian"],
+        "url": "https://harmonihanjawongvillage.co.id/kontak/"
+      }
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://harmonihanjawongvillage.co.id/#brand",
+      "name": "Harmoni Hanjawong Village",
+      "url": "https://harmonihanjawongvillage.co.id/",
+      "description": "Kawasan kavling tanah SHM dengan konsep Property, Nature, Leisure & Lifestyle di Puncak 2 Sukamakmur Bogor.",
+      "parentOrganization": {
+        "@id": "https://harmonihanjawongvillage.co.id/#organization"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://harmonihanjawongvillage.co.id/#website",
+      "url": "https://harmonihanjawongvillage.co.id/",
+      "name": "Harmoni Hanjawong Village",
+      "publisher": {
+        "@id": "https://harmonihanjawongvillage.co.id/#organization"
+      },
+      "inLanguage": "id-ID"
     },
     {
       "@type": "WebPage",
       "@id": "https://harmonihanjawongvillage.co.id/#webpage",
       "url": "https://harmonihanjawongvillage.co.id/",
       "name": "Harmoni Hanjawong Village | Kavling SHM Puncak 2 Bogor",
-      "description": "Kenali Harmoni Hanjawong Village, pilihan kavling tanah SHM di Sukamakmur, Puncak 2 Bogor. Cek lokasi, pilihan kavling, legalitas, harga terbaru, dan jadwalkan survei.",
       "isPartOf": {
         "@id": "https://harmonihanjawongvillage.co.id/#website"
       },
       "about": {
-        "@id": "https://harmonihanjawongvillage.co.id/#organization"
+        "@id": "https://harmonihanjawongvillage.co.id/#brand"
       },
-      "inLanguage": "id-ID",
-      "primaryImageOfPage": {
-        "@type": "ImageObject",
-        "url": "https://harmonihanjawongvillage.co.id/assets/img/hero-slider/harmonihanjawongvillage2.webp"
-      }
+      "mainEntity": {
+        "@id": "https://harmonihanjawongvillage.co.id/#brand"
+      },
+      "inLanguage": "id-ID"
     },
-    {
-      "@type": "Organization",
-      "@id": "https://harmonihanjawongvillage.co.id/#organization",
-      "name": "PT Harmoni Grup Indonesia",
-      "alternateName": "Harmoni Grup Indonesia",
-      "url": "https://harmonihanjawongvillage.co.id/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://harmonihanjawongvillage.co.id/assets/assets/icon/icon-logo.png"
-      },
-      "brand": {
-        "@type": "Brand",
-        "name": "Harmoni Hanjawong Village"
-      },
-      "sameAs": [
-        "https://harmonihanjawongvillage.co.id/"
-      ]
-    }
+
+{
+  "@type": "Product",
+  "@id": "https://harmonihanjawongvillage.co.id/#aruna",
+  "name": "Hanjawong Aruna",
+  "description": "Tipe kavling Sunrise Living di Harmoni Hanjawong Village, Sukamakmur Bogor, dengan konsep hunian bernuansa alam dan suasana pagi.",
+  "category": "Kavling Tanah SHM",
+  "brand": {
+    "@id": "https://harmonihanjawongvillage.co.id/#brand"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://harmonihanjawongvillage.co.id/",
+    "priceCurrency": "IDR",
+    "price": "1299000",
+    "availability": "https://schema.org/LimitedAvailability"
+  }
+},
+{
+  "@type": "Product",
+  "@id": "https://harmonihanjawongvillage.co.id/#terra",
+  "name": "Hanjawong Terra",
+  "description": "Tipe kavling Green Productive di Harmoni Hanjawong Village untuk pengembangan lahan dengan konsep hijau dan produktif.",
+  "category": "Kavling Tanah SHM",
+  "brand": {
+    "@id": "https://harmonihanjawongvillage.co.id/#brand"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://harmonihanjawongvillage.co.id/",
+    "priceCurrency": "IDR",
+    "price": "1099000"
+  }
+},
+{
+  "@type": "Product",
+  "@id": "https://harmonihanjawongvillage.co.id/#reserve",
+  "name": "Hanjawong Reserve",
+  "description": "Tipe kavling Premium View di Harmoni Hanjawong Village dengan karakter pemandangan Gunung Hanjawong dan alam Sukamakmur.",
+  "category": "Kavling Tanah SHM",
+  "brand": {
+    "@id": "https://harmonihanjawongvillage.co.id/#brand"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://harmonihanjawongvillage.co.id/",
+    "priceCurrency": "IDR",
+    "price": "899000"
+  }
+}
+
   ]
 }
 </script>
+
 
   </head>
   <body class="bg-bgLight dark:bg-bgDark">
