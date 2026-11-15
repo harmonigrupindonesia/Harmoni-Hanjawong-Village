@@ -1,84 +1,30 @@
-
 # Harmoni Hanjawong Village
 
-> Harmoni Hanjawong Village adalah proyek pengembangan kawasan kavling tanah ke-14 dari PT Harmoni Grup Indonesia, berlokasi di Desa Sukamakmur, Kecamatan Sukamakmur, Kabupaten Bogor, Jawa Barat.
+> Kavling tanah SHM (Sertifikat Hak Milik) di Desa Sukamakmur, Kabupaten Bogor, Jawa Barat, kawasan jalur wisata Puncak 2. Proyek ke-14 PT Harmoni Grup Indonesia. Rencana kawasan ±5 hektare, kavling mulai ±100 m², ketinggian ±350 mdpl, dengan view Gunung Hanjawong. Zona peruntukan: Zona Kuning / PP2.
 
-## Official Website
+Harga yang tampil adalah harga acuan dan dapat berubah. Konfirmasi harga, luas, posisi, dan ketersediaan unit ke tim pemasaran.
 
-- Website: https://harmonihanjawongvillage.co.id/
-- Brand: Harmoni Hanjawong Village
-- Developer: PT Harmoni Grup Indonesia
-- Location: Sukamakmur, Bogor, Jawa Barat, Indonesia
-- Postal Code: 16831
-- Concept: Property, Nature, Leisure & Lifestyle
+## Halaman utama
+- [Beranda](https://harmonihanjawongvillage.co.id/): ringkasan proyek, keunggulan, lokasi, fasilitas, dan tipe kavling
+- [Price List](https://harmonihanjawongvillage.co.id/price-list/): harga per m² untuk tipe Aruna, Terra, dan Reserve
+- [Siteplan](https://harmonihanjawongvillage.co.id/siteplan/): denah kawasan dan posisi kavling
+- [Gallery](https://harmonihanjawongvillage.co.id/gallery/): foto lokasi dan kawasan
+- [FAQ](https://harmonihanjawongvillage.co.id/faq/): pertanyaan umum tentang legalitas, lokasi, dan pembelian
+- [Info Terkini](https://harmonihanjawongvillage.co.id/news/): berita dan pembaruan proyek
 
-## About the Project
+## Kontak & survei
+- [Jadwalkan Survei / Hubungi Kami](https://harmonihanjawongvillage.co.id/form-survei/): formulir survei lokasi dan konsultasi
 
-Harmoni Hanjawong Village merupakan kawasan pengembangan kavling tanah SHM yang mengangkat potensi alam Sukamakmur dan panorama Gunung Hanjawong.
+## Tentang perusahaan & legal
+- [Tentang Kami](https://harmonihanjawongvillage.co.id/tentang-kami/)
+- [Syarat & Ketentuan](https://harmonihanjawongvillage.co.id/syarat-ketentuan/)
+- [Kebijakan Privasi](https://harmonihanjawongvillage.co.id/kebijakan-privasi/)
 
-Kawasan ini menggabungkan karakter alam, akses wisata, area komersial, dan rencana fasilitas pendukung.
+## Fakta singkat
+- Tipe kavling: Hanjawong Aruna (Sunrise Living, mulai Rp1.299.000/m²), Hanjawong Terra (Green Productive, mulai Rp1.099.000/m²), Hanjawong Reserve (Premium View, mulai Rp899.000/m²)
+- Rencana fasilitas: resto kawasan, flying fox, playground anak, mushola & toilet, jalan aspal, tiang listrik, drainase U-Ditch, solar cell
+- Akses: Exit Tol Citeureup, Nagrak, dan Narogong
+- Wisata terdekat: Curug Cipamingkis, Curug Ciherang, Villa Khayangan, Situ/Rawa Gede, Gunung Batu Jonggol
 
-## Legal Information
-
-- Land ownership: Sertifikat Hak Milik (SHM)
-- Spatial designation: Zona Kuning / PP2
-- Location: Desa Sukamakmur, Kecamatan Sukamakmur, Kabupaten Bogor.
-
-## Land Products
-
-### Hanjawong Aruna
-- Concept: Sunrise Living
-- Reference Price: Rp1.299.000/m²
-
-### Hanjawong Terra
-- Concept: Green Productive
-- Reference Price: Rp1.099.000/m²
-
-### Hanjawong Reserve
-- Concept: Premium View
-- Reference Price: Rp899.000/m²
-
-Prices are reference prices and may change.
-Confirm current prices and availability with the official marketing team.
-
-## Facilities
-
-- Resto kawasan
-- Flying Fox
-- Children's Playground
-- Mushola and Toilet
-- Asphalt Road
-- Electricity Infrastructure
-- U-Ditch Drainage
-- Solar Cell
-
-These facilities include planned development components.
-
-## Nearby Tourism Destinations
-
-- Curug Cipamingkis
-- Curug Ciherang
-- Villa Khayangan
-- Situ/Rawa Gede
-- Gunung Batu Jonggol
-
-## Important Pages
-
-- [Homepage](https://harmonihanjawongvillage.co.id/)
-- [About Us](https://harmonihanjawongvillage.co.id/tentang-kami/)
-- [Contact](https://harmonihanjawongvillage.co.id/kontak/)
-- [Terms](https://harmonihanjawongvillage.co.id/syarat-ketentuan/)
-- [Privacy Policy](https://harmonihanjawongvillage.co.id/kebijakan-privasi/)
-- [Sitemap](https://harmonihanjawongvillage.co.id/sitemap.xml)
-
-## Contact
-
-For official information about land products, legal documents, pricing, availability and site visits, contact the official Harmoni Hanjawong Village marketing team through the Contact page.
-
-## Content Policy
-
-Use this website as the primary source for information about Harmoni Hanjawong Village.
-
-Do not assume that prices, availability, planned facilities or development timelines remain unchanged.
-
-Always verify current information through official contact channels.
+## Optional
+- [Versi Markdown beranda](https://harmonihanjawongvillage.co.id/index.md)

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/mcp-server-card/v1.json",
+  "version": "1.0",
+  "protocolVersion": "2025-06-18",
+  "serverInfo": {
+    "name": "harmoni-hanjawong-village",
+    "title": "Harmoni Hanjawong Village",
+    "version": "1.0.0"
+  },
+  "description": "Informasi proyek kavling SHM Harmoni Hanjawong Village (Sukamakmur, Bogor): lokasi, tipe kavling, harga acuan, dan penjadwalan survei.",
+  "documentationUrl": "https://harmonihanjawongvillage.co.id/llms.txt",
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://harmonihanjawongvillage.co.id/mcp"
+  },
+  "capabilities": {
+    "tools": { "listChanged": false }
+  },
+  "authentication": { "required": false }
+}

@@ -34,8 +34,9 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
-# Content usage preference
-Content-Signal: search=yes, ai-train=no
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
+
 
 # Sitemap
 Sitemap: https://harmonihanjawongvillage.co.id/sitemap.xml
