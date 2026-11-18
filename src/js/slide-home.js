@@ -4,7 +4,7 @@ const slides = [
     link: "https://wa.me/6285211300632?text=Hallo%20Ka%20Sera%2C%20Saya%20Mau%20Info%20Lebih%20Lanjut%20Tentang%20Kavling%20Harmoni%20Hanjawong%20Village",
   },
   {
-    image: "./assets/img/hero-slider/harmonihanjawongvillage1.webp",
+    image: "./assets/img/gallery/1.webp",
     link: "https://wa.me/6285211300632?text=Hallo%20Ka%20Sera%2C%20Saya%20Mau%20Info%20Lebih%20Lanjut%20Tentang%20Kavling%20Harmoni%20Hanjawong%20Village",
   },
   {
